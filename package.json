@@ -2,11 +2,12 @@
   "name": "randomknightwalk",
   "version": "1.0.0",
   "description": "A random walk of a knight in a chessboard",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "start": "node index.mjs",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "type": "commonjs",
   "author": "Hugo Haldi",
   "license": "ISC"
 }

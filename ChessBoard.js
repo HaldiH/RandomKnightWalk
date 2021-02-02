@@ -1,4 +1,4 @@
-export class ChessBoard {
+module.exports = class ChessBoard {
     constructor(size, knightPos = { x: 0, y: 0 }) {
         this.size = size
         this.startKnight = knightPos
